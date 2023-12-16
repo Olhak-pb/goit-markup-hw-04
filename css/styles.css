@@ -288,6 +288,8 @@ body {
     color: #434455;
 }
 
+/* Footer */
+
 
 .footer-container {
     display: flex;
@@ -328,9 +330,6 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-    display: flex;
-    margin: auto;
-    align-items: baseline;
 }
 
 
