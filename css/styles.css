@@ -292,10 +292,10 @@ body {
 .footer-container {
     display: flex;
     align-items: baseline;
+    background-color: #2e2f42;
 }
 
 .footer {
-    background-color: #2e2f42;
     padding: 100px 0;
     display: flex;
     padding: 100px 0;
@@ -320,11 +320,6 @@ body {
     color: #f4f4fd;
 }
 
-/* /* .sm-div {
-    display: flex;
-    margin: 0 auto;
-    align-items: baseline; */
-
 
 .social-media {
     font-weight: 500;
@@ -344,11 +339,3 @@ body {
     gap: 16px;
 }
 
-.sm-element {
-    width: 40px;
-    height: 40px;
-}
-
-.info {
-    margin-right: 50px;
-}
