@@ -303,25 +303,25 @@ body {
     padding: 100px 0;
 }
 
-.footer > div  a:first-child {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
 .info {
     margin-right: 120px;
 }
-.footer-description {
-    line-height: 1.5;
-    color:#F4F4FD;
-    letter-spacing: 0.02em;
-    max-width: 264px
+
+.footer > div  a:first-child {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-second-footer {
     color: #f4f4fd;
 }
 
+.footer-description {
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px
+}
 
 .social-media {
     font-weight: 500;
