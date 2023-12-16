@@ -291,9 +291,16 @@ body {
 .footer {
    background-color: #2e2f42;
    padding: 100px 0;
+   display: flex;
+   padding: 100px 0;
 }
 
-.footer > div a:first-child {
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container > div  a:first-child {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -307,4 +314,37 @@ body {
 
 .logo-second-footer {
     color: #f4f4fd;
+}
+
+/* /* .sm-div {
+    display: flex;
+    margin: 0 auto;
+    align-items: baseline; */
+
+
+.social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    display: flex;
+    margin: auto;
+    align-items: baseline;
+}
+
+
+.social-media-list {
+    display: flex;
+    gap: 16px;
+}
+
+.sm-element {
+    width: 40px;
+    height: 40px;
+}
+
+.info {
+    margin-right: 50px;
 }
