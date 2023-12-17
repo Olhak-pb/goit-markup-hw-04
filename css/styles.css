@@ -138,9 +138,20 @@ body {
     color: #404bbf;
 }
 
+/* Section 1 */
+
 .main-info {
     background-color: #2E2F42;
     padding: 188px 0;
+}
+
+.main-info.section {
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Section1/mainphoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 .main-header {
@@ -168,6 +179,7 @@ body {
     border: none;
     border-radius: 4px;
     margin: 48px auto 0;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-button:hover, .service-button:focus {
