@@ -179,7 +179,7 @@ body {
     border: none;
     border-radius: 4px;
     margin: 48px auto 0;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-button:hover, .service-button:focus {
