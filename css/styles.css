@@ -394,6 +394,7 @@ body {
 
 .footer-div.container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-container {
