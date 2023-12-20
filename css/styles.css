@@ -410,6 +410,7 @@ body {
 .portfolio-img {
     position: relative;
     overflow: hidden;
+    transform: translateY(0%);;
 }
 
 /* footer */
