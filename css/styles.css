@@ -394,7 +394,6 @@ body {
 
 .footer-div.container {
     display: flex;
-    align-items: baseline;
 }
 
 .footer-container {
@@ -402,7 +401,6 @@ body {
 }
 
 .footer>div a:first-child {
-    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -416,6 +414,7 @@ body {
 .logo-second-footer {
     color: #f4f4fd;
 }
+
 
 .footer-media-footer-desc {
     font-weight: 500;
@@ -435,7 +434,6 @@ body {
 .footer-items {
     width: 40px;
     height: 40px;
-    margin: 0;
 }
 
 .footer-icon-element {
@@ -455,5 +453,5 @@ body {
 
 .svg-sm-icon {
     fill: #f4f4fd;
-    display: flex;
+    align-items: center;
 }
