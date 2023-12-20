@@ -434,6 +434,7 @@ body {
 .footer-items {
     width: 40px;
     height: 40px;
+    display: flex;
 }
 
 .footer-icon-element {
